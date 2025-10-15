@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "tr">
+<head>
+     <meta charset = "UTF-8">
+     <title>Test Sitem</title>
+     </head>
+<body>
+    <h1>HTML Test Sayfası</h1>
+
+    </body>
+</html>
+
+# Bu klasörü bir Git deposu haline getir
+git init
+
+# Tüm dosyaları takip etmeye başla
+git add .
+
+# Değişiklikleri kaydet(commit)
+git commit -m "İlk deneme"
+
+# Branşı 'main' olarak ayarla
+git branch -M main
+
+# GitHub'daki depoyu buraya bağla (URL'yi kendi depomun URL'siyle değiştir)
+git remote set url origin https://github.com/yigtrumeysa/-dev
+
+# Kodu GitHub'a yükle
+git push -u origin main
+
+git config --global user.name "yigtrumeysa"
+git config --global user.email "yigitrumeysa627@gmail.com"
+
