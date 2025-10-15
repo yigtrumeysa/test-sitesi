@@ -10,3 +10,32 @@
     </body>
 </html>
 
+   <h2>Resim</h2>
+    <img src="media/fotom.jpg" alt="Örnek Resim Açıklaması" width="300"> 
+
+    <h2>Tablo</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Öğrenilenler</th>
+                <th>Durum</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML Temel Etiketler</td>
+                <td>Başarılı</td>
+            </tr>
+            <tr>
+                <td>Git Komutları (Commit, Push)</td>
+                <td>Başarılı</td>
+            </tr>
+            <tr>
+                <td>GitHub Pages Yayınlama</td>
+                <td>Başarılı</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
